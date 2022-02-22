@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RobotStudioAddIn xmlns="urn:abb-robotics-robotstudio-addin"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="urn:abb-robotics-robotstudio-addin file:///C:\Program%20Files%20(x86)\ABB\SDK\RobotStudio%202021%20SDK\RobotStudioAddin.xsd"
+                  autoLoad="true">
+  <ApplicationId>open.ZaidAljubouri.FieldOfView</ApplicationId>
+  <DisplayName>Field Of View</DisplayName>
+  <DisplayVersion>1.0</DisplayVersion>
+  <Description>Adjust the angular field of view. This add-in creates a new button under the "Graphics" settings titled "Field of view"</Description>
+  <AddInType>General</AddInType>
+  <Assembly>
+    <FileName>FieldOfView.dll</FileName>
+  </Assembly>
+  <MinimumHostVersion>20.0</MinimumHostVersion>
+  <Dependencies>Station</Dependencies>
+  <Platform>Any</Platform>
+</RobotStudioAddIn>
